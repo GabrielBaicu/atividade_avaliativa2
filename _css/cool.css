@@ -1,0 +1,96 @@
+.titulo {
+    text-align: center;
+    background-color: silver;
+    border: 5px  solid;
+    border-radius: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
+.idadetxt {
+    margin-left: 115px;
+    width: 250px;
+}
+
+.nomelab {
+    margin-left: 115px;
+    width: 250px;
+}
+.idadelab {
+    margin-left: 250px;
+}
+
+.cidadetxt {
+    width: 546px;
+}
+
+.div1 {
+    border: 5px  solid;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: silver;
+    margin-left: 500px;
+    margin-right: 500px;
+    background-image: url(../_images/roberto_pixel.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 200px 200px;
+    background-position-x: right 55px;
+}
+
+.div2 {
+    border: 5px  solid;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: silver;
+    margin-left: 500px;
+    margin-right: 500px;
+    background-image: url(../_images/bruno_aura.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 250px 250px;
+    background-position-x: right 55px;
+}
+
+.div3 {
+    border: 5px  solid;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: silver;
+    margin-left: 500px;
+    margin-right: 500px;
+    background-image: url(../_images/eminem\ nerdola.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: auto 125px;
+    background-position-x: right 125px;
+}
+
+.div4 {
+    border: 5px  solid;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: silver;
+    margin-left: 500px;
+    margin-right: 500px;
+    background-image: url(../_images/trio\ do\ laguinho.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: auto 200px;
+    background-position-x: right 55px;
+}
+
+body {
+    background-color: darkslateblue;
+}
+
+textarea {
+    width: 500px;
+    height: 100px;
+    resize: none;
+}
+
+.img {
+    margin-left: 100px;
+}

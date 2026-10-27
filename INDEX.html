@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cool Forms</title>
+    <link rel="stylesheet" href="_css/cool.css">
+</head>
+
+<body>
+    <h1 class="titulo">Formulário Gamer Expirence</h1>
+    <form>
+        <div class="div1">
+            <h2>Dados pessoais:</h2>
+            <label>Nome:</label> <!----> <label class="idadelab">Idade:</label> <br>
+            <input type="text" placeholder="Nome" class="nometxt"> <!----> <input type="number" placeholder="idade"
+                class="idadetxt">
+            <p></p>
+            <label>E-mail:</label> <!----> <label class="idadelab">Telefone:</label> <br>
+            <input type="email" placeholder="Nome" class="nometxt"> <!----> <input type="tel" placeholder="Nome"
+                class="idadetxt">
+            <p></p>
+            <label class="cidadelab">Cidade:</label> <br>
+            <input type="text" placeholder="Cidade" class="cidadetxt">
+        </div>
+        <br>
+        <div class="div2">
+            <h2>Preferencias:</h2>
+            <p>Gênero preferido</p>
+            <select name="escolha" class="tipos">
+                <option>Selecione uma opção</option>
+                <option>Plataforma</option>
+                <option>RPG</option>
+                <option>Sandbox</option>
+                <option>Aventuta</option>
+                <option>Estrategia</option>
+                <option>Tower Defence</option>
+            </select>
+            <p>Turno preferido para jogar:</p>
+            <input type="radio" name="turno" value="Manhã">Manhã
+            <input type="radio" name="turno" value="Tarde">Tarde
+            <input type="radio" name="turno" value="Noite">Noite
+            <p>Estilo de jogo que gosta:</p>
+            <input type="checkbox" name="estilo" value="Cyberpunk">Cyberpunk
+            <input type="checkbox" name="estilo" value="Steampunk">Steampunk
+            <input type="checkbox" name="estilo" value="pixelart">pixelart
+            <input type="checkbox" name="estilo" value="3D">3D
+            <input type="checkbox" name="estilo" value="2D">2D
+            <input type="checkbox" name="estilo" value="Top-down">Top-down
+        </div>
+        <br>
+        <div class="div3">
+            <h1>Projeto</h1>
+            <p>Esta fazendo algum projeto?</p>
+            <input type="radio" name="projeto" value="Games">Games
+            <input type="radio" name="projeto" value="Música">Música
+            <input type="radio" name="projeto" value="Codigo">Codigo
+            <input type="radio" name="projeto" value="Desenho">Desenho
+            <input type="radio" name="projeto" value="Esporte">Esporte
+        </div>
+        <p></p>
+        <div class="div4">
+            <h1>Observasões</h1> 
+            <p>Deixe algumas observasões, dicas, sujestoes e ideias.</p>
+             <textarea></textarea>
+        </div>
+    </form>
+</body>
+
+</html>
